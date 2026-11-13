@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+.sentry-native/
+
+# Upstream submodules & debug captures
+opencode/
+zen-capture/
+scratch/
+
+# Vendored upstream sources for ground-truth reference (never commit, ~350MB)
+.devdocs/
+
+# Local proxy profiles and pool snapshots (contain subscription credentials)
+profiles/
+*.pool.json
+socks.txt
+*_proxies_*.txt
+working_proxies*.txt
+stats.json
